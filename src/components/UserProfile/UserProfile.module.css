@@ -1,0 +1,27 @@
+.user_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 70px 170px 0 170px;
+    padding: 30px;
+    border: 1px solid rgb(77, 77, 230);
+    border-radius: 50px;
+}
+.avatar{
+    border-radius: 50%;
+}
+.change_btn{
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.change_btn:hover{
+    transform: translateY(-1px);
+    box-shadow: 
+    0 0 5px red,
+    0 0 15px blue;
+}

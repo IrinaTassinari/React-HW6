@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Rubik", sans-serif;
+}
+
+
+body {
+  animation: bg 10s ease infinite;
+}
+
+@keyframes bg {
+  0% {
+    background-color: rgb(19, 116, 206);
+  }
+  50% {
+    background-color: rgb(130, 180, 250);
+  }
+  100% {
+    background-color: rgb(19, 116, 206);
+  }
+}
+

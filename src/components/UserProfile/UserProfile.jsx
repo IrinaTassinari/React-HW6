@@ -31,11 +31,11 @@ function UserProfile(){
     return(
         <div className={style.user_card}>
             <img className={style.avatar} src={user.picture.large} alt="avatar" />
-            <h2>{user.name.title} {user.name.first} {user.name.last}</h2>
-            <p>{user.email}</p>
-            <p>Country:{user.location.country} City:{user.location.city}</p>
-
-            <button onClick={fetchUser} className={style.change_btn}>Swipe</button>  
+            <h2> {user.name.first} {user.name.last}</h2>
+            <p>Phone: {user.phone}</p>
+            <p>Email: {user.email}</p>
+            <p>Location: {user.location.city}, {user.location.country} </p>
+            <button onClick={fetchUser} className={style.change_btn}>Load new User</button>  
             {/* не ставим () чтобы не вызвать ф-ю сразу */}
         </div>
     )
